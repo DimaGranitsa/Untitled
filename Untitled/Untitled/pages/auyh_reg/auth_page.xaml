@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Untitled.pages.auyh_reg.auth_page">
+    <ScrollView>
+        <FlexLayout>
+            <StackLayout>
+                <StackLayout>
+                    <Label Margin="50" Text="Добро пожаловать в мир книг!"
+                   TextColor="White"
+                   FontFamily="Ruda"
+                   FontSize="45" HorizontalOptions="Center">
+                       
+                    </Label>
+                </StackLayout>
+                <StackLayout VerticalOptions="Center" Margin="0, 70, 0, 0">
+                    <Entry Placeholder="Логин" 
+                           PlaceholderColor="Black"  
+                           x:Name="ELogin" 
+                           TextColor="White"
+                           Text="{Binding UserLogin}"
+                           BackgroundColor="Black"
+                           HeightRequest="60"
+                           Margin="40, 30, 40, 0"
+                           Visual="Material" VerticalOptions="Fill"/>
+
+                    <Entry 
+                        Placeholder="Пароль"
+                           Margin="40, 30, 40, 40"
+                           PlaceholderColor="Black"
+                           TextColor="White"
+                           Text="{Binding UserPassword}"
+                           x:Name="EPassword"
+                           IsPassword="True"
+                           BackgroundColor="Black"
+                           HeightRequest="60"
+                           Visual="Material"
+                        VerticalOptions="Fill"/>
+                </StackLayout>
+
+                <FlexLayout Direction="Row" JustifyContent="SpaceBetween" Margin="49, 40, 49, 40">
+                    <Button Text="Зарегистрироватьтся" 
+                        CornerRadius="200" 
+                        TextColor="White" 
+                        x:Name="BRegistration" 
+                        Clicked="BRegistration_Clicked"
+                        HeightRequest="60"
+                        WidthRequest="149"
+                        FontSize="9"
+                        Margin="0,5,11,0"
+                            VerticalOptions="End"/>
+
+                    <Button Text="Войти" 
+                        CornerRadius="200" 
+                        BackgroundColor="Red" 
+                        TextColor="White" 
+                        x:Name="BLogin" 
+                        Clicked="BLogin_Clicked"
+                        HeightRequest="60"
+                        WidthRequest="149"
+                        FontSize="9"
+                        Margin="11,5,0,0"
+                            VerticalOptions="End"/>
+                </FlexLayout>
+            </StackLayout>
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>

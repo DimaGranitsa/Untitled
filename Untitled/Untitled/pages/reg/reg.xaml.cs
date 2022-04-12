@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Untitled.pages.reg
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class reg : ContentPage
+    {
+        public reg()
+        {
+            InitializeComponent();
+        }
+
+        private void BRegistration_Clicked(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
