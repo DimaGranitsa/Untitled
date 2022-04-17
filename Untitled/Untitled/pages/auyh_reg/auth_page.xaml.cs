@@ -19,12 +19,22 @@ namespace Untitled.pages.auyh_reg
 
         private void BLogin_Clicked(object sender, EventArgs e)
         {
-
+            
         }
 
         private void BRegistration_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new reg.reg());
+            
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+Navigation.PushModalAsync(new pages.Glavnoeocno());
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+Navigation.PushModalAsync(new reg.reg());
         }
     }
 }

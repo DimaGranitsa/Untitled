@@ -3,24 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Untitled.pages.auyh_reg.auth_page">
     <ScrollView>
-        <FlexLayout>
+        <FlexLayout BackgroundColor="Black">
             <StackLayout>
-                <StackLayout>
-                    <Label Margin="50" Text="Добро пожаловать в мир книг!"
-                   TextColor="White"
-                   FontFamily="Ruda"
-                   FontSize="45" HorizontalOptions="Center">
-                       
-                    </Label>
-                </StackLayout>
-                <StackLayout VerticalOptions="Center" Margin="0, 70, 0, 0">
+                
+               <StackLayout VerticalOptions="Center" Margin="0, 70, 0, 0">
+                    <Label Text="Добро пожаловать в мир книг!" FontSize="30" TextColor="White" Margin="10"/>
                     <Entry Placeholder="Логин" 
                            PlaceholderColor="Black"  
                            x:Name="ELogin" 
-                           TextColor="White"
+                           TextColor="Orange"
                            Text="{Binding UserLogin}"
                            BackgroundColor="Black"
-                           HeightRequest="60"
+                           HeightRequest="0"
                            Margin="40, 30, 40, 0"
                            Visual="Material" VerticalOptions="Fill"/>
 
@@ -38,30 +32,13 @@
                         VerticalOptions="Fill"/>
                 </StackLayout>
 
-                <FlexLayout Direction="Row" JustifyContent="SpaceBetween" Margin="49, 40, 49, 40">
-                    <Button Text="Зарегистрироватьтся" 
-                        CornerRadius="200" 
-                        TextColor="White" 
-                        x:Name="BRegistration" 
-                        Clicked="BRegistration_Clicked"
-                        HeightRequest="60"
-                        WidthRequest="149"
-                        FontSize="9"
-                        Margin="0,5,11,0"
-                            VerticalOptions="End"/>
+               
+                    <Button Background="Black" Margin="10" BorderColor="Orange" BorderWidth="3" CornerRadius="15" Text="Войти" TextColor="Orange"  Clicked="Button_Clicked"/>
 
-                    <Button Text="Войти" 
-                        CornerRadius="200" 
-                        BackgroundColor="Red" 
-                        TextColor="White" 
-                        x:Name="BLogin" 
-                        Clicked="BLogin_Clicked"
-                        HeightRequest="60"
-                        WidthRequest="149"
-                        FontSize="9"
-                        Margin="11,5,0,0"
-                            VerticalOptions="End"/>
-                </FlexLayout>
+                <Button Background="Black" Margin="30" BorderColor="Red" BorderWidth="3" CornerRadius="15" Text="Регистрация" TextColor="Orange" Clicked="Button_Clicked_1"/>
+                 
+                    
+              
             </StackLayout>
         </FlexLayout>
     </ScrollView>

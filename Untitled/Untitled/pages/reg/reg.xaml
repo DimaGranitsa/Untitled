@@ -49,13 +49,20 @@
                    Visual="Material"/>
 
             </StackLayout>
-
+            <StackLayout Margin=" 10 ,50,10,-50">
+            <Button Text="добавить фото" FontSize="30" InputTransparent="True" >
+  </Button>
+            </StackLayout>
+                
+           
             <StackLayout Margin="0,204,0,0">
-                <Button x:Name="BRegistration" 
+                <Button Opacity="0.7"
+                    x:Name="BRegistration" 
                         Text="Зарегистрироваться" 
                         CornerRadius="200"
-                        BackgroundColor="#00b2ff"
+                        BackgroundColor="Yellow"
                         Clicked="BRegistration_Clicked"
+                        InputTransparent="False"
                         TextColor="White"/>
             </StackLayout>
         </FlexLayout>
