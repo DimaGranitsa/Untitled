@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Untitled.pages
+namespace Untitled.pages.novinco
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Glavnoeocno : ContentPage
+    public partial class navvinki : ContentPage
     {
-        public Glavnoeocno()
+        public navvinki()
         {
             InitializeComponent();
         }
@@ -29,22 +29,7 @@ namespace Untitled.pages
 
         private void Button_Clicked_2(object sender, EventArgs e)
         {
- Navigation.PushModalAsync(new pages.poisk.poisk());
-        }
-
-        private void Button_Clicked_3(object sender, EventArgs e)
-        {
-            Navigation.PushModalAsync(new pages.poisk.karzina());
-        }
-
-        private void Button_Clicked_4(object sender, EventArgs e)
-        {
-            Navigation.PushModalAsync(new pages.lic.licnai());
-        }
-
-        private void Button_Clicked_5(object sender, EventArgs e)
-        {
-            Navigation.PushModalAsync(new pages.rocnig1());
+            Navigation.PushModalAsync(new pages.Glavnoeocno());
         }
     }
 }

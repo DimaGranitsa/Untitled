@@ -10,41 +10,56 @@ using Xamarin.Forms.Xaml;
 namespace Untitled.pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Glavnoeocno : ContentPage
+    public partial class rocnig1 : ContentPage
     {
-        public Glavnoeocno()
+        public rocnig1()
         {
             InitializeComponent();
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.novinco.navvinki());
+
         }
 
         private void Button_Clicked_1(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.novinco.skoro_v_prodage());
+
         }
 
         private void Button_Clicked_2(object sender, EventArgs e)
         {
- Navigation.PushModalAsync(new pages.poisk.poisk());
+
         }
 
         private void Button_Clicked_3(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.poisk.karzina());
+
         }
 
         private void Button_Clicked_4(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.lic.licnai());
+
         }
 
         private void Button_Clicked_5(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.rocnig1());
+
+        }
+
+        private void Button_Clicked_6(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_7(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_8(object sender, EventArgs e)
+        {
+
         }
     }
 }

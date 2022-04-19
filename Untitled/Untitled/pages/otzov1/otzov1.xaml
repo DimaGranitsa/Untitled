@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Untitled.pages.otzov1.otzov1">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#303030">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80" ></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition Height="50" ></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" BackgroundColor="#2A2A2A">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Button HorizontalOptions="Start"  ImageSource="/Resources/drawable/strelka.png"  FontFamily="#C5C7FF" BackgroundColor="#2A2A2A" ></Button>
+
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Label Text="Все отзывы"  FontSize="20" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start" TextColor="White" ></Label>
+
+
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition ></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+
+                <Grid  BackgroundColor="#303030">
+                    <Frame CornerRadius="50" BackgroundColor="#303030">
+                        <Grid  >
+                            <Image BackgroundColor="#303030" Source="/Resources/drawable/d3.png"  ></Image>
+
+                        </Grid>
+
+                    </Frame>
+
+
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Text="ОБЩАЯ ОЦЕНКА"  FontSize="20" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Start" TextColor="White" ></Label>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition ></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition ></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition ></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0"  >
+                            <Image BackgroundColor="#303030" Source="/Resources/drawable/Sta.png"  ></Image>
+
+                        </Grid>
+                        <Grid Grid.Column="1"  >
+                            <Image BackgroundColor="#303030" Source="/Resources/drawable/Sta.png"  ></Image>
+
+                        </Grid>
+                        <Grid Grid.Column="2"  >
+                            <Image BackgroundColor="#303030" Source="/Resources/drawable/Sta.png"  ></Image>
+
+                        </Grid>
+                        <Grid Grid.Column="3"  >
+                            <Image BackgroundColor="#303030" Source="/Resources/drawable/Sta.png"  ></Image>
+
+                        </Grid>
+                        <Grid Grid.Column="4"  >
+                            <Image BackgroundColor="#303030" Source="/Resources/drawable/Sta.png"  ></Image>
+
+                        </Grid>
+
+                    </Grid>
+                    
+                </Grid>
+                
+            </Grid>
+
+
+            <Grid Grid.RowSpan="3" Grid.Row="2" >
+                <Frame BorderColor="White" BackgroundColor="#303030" WidthRequest="500" >
+                    <Label Text="Напишите отзыв..."  FontSize="20" Grid.Row="0" VerticalOptions="Start" HorizontalOptions="Start" TextColor="White" ></Label>
+
+                </Frame>
+                    </Grid>
+            <Grid Grid.Row="4">
+                
+            </Grid>
+
+
+            <Grid Grid.Row="5">
+                <Grid BackgroundColor="Black" Grid.Row="3" >
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition>
+                        </ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" ImageSource="/Resources/drawable/dom.png"  FontFamily="#C5C7FF" BackgroundColor="Black" ></Button>
+                    <Button Grid.Column="1" ImageSource="/Resources/drawable/zal.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked"></Button>
+                    <Button Grid.Column="2" ImageSource="/Resources/drawable/kar.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked_1"></Button>
+                    <Button Grid.Column="3" ImageSource="/Resources/drawable/cel.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked_2"></Button>
+                </Grid>
+            </Grid>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

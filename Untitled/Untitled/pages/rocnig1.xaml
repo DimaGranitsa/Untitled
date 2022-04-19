@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Untitled.pages.rocnig1">
+    <ContentPage.Content >
+        <Grid BackgroundColor="#393939">
+           
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" ></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid BackgroundColor="#393939" Grid.Row="0">
+
+                <Grid Grid.Row="0" BackgroundColor="#393939">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button HorizontalOptions="Start"  ImageSource="/Resources/drawable/strelka.png"  FontFamily="#C5C7FF" BackgroundColor="#393939" ></Button>
+
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Button HorizontalOptions="End" ImageSource="/Resources/drawable/kar1.png"  FontFamily="#C5C7FF" BackgroundColor="#393939" ></Button>
+
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="1" >
+                <ScrollView >
+                    <Grid BackgroundColor="#393939">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="370"></RowDefinition>
+                            <RowDefinition Height="70"></RowDefinition>
+                            <RowDefinition Height="30"></RowDefinition>
+                            <RowDefinition Height="500"></RowDefinition>
+                            <RowDefinition Height="200"></RowDefinition>
+                            <RowDefinition Height="40"></RowDefinition>
+                            <RowDefinition Height="300"></RowDefinition>
+                            <RowDefinition Height="80"></RowDefinition>
+                           
+                            <RowDefinition Height="50"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid  Grid.Row="0" BackgroundColor="#393939">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition Width="20"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid Grid.Column="1"  BackgroundColor="#393939">
+
+                                <Image  Source="/Resources/drawable/k1.png"  BackgroundColor="#393939"  ></Image>
+
+                            </Grid>
+                        </Grid>
+                        <Grid BackgroundColor="#2A2A2A" Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition ></RowDefinition>
+                                <RowDefinition ></RowDefinition>
+
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0" BackgroundColor="#393939" >
+                                <Label Text="Унесенные ветром"  FontSize="30" BackgroundColor="#393939" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" ></Label>
+
+                            </Grid>
+                            <Grid Grid.Row="1" BackgroundColor="#393939">
+                                <Label Text="Маргарет Митчелл"  FontSize="20"  BackgroundColor="#393939" VerticalOptions="Center" HorizontalOptions="Center" TextColor="DarkGray"></Label>
+
+                            </Grid>
+                        </Grid>
+                        <Grid BackgroundColor="#393939" Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10"></ColumnDefinition>
+                                <ColumnDefinition Width="10"></ColumnDefinition>
+                                <ColumnDefinition Width="10"></ColumnDefinition>
+                                <ColumnDefinition Width="10"></ColumnDefinition>
+                                <ColumnDefinition Width="10"></ColumnDefinition>
+                                <ColumnDefinition Width="10"></ColumnDefinition>
+                                <ColumnDefinition Width="20"></ColumnDefinition>
+                                <ColumnDefinition ></ColumnDefinition>
+                                <ColumnDefinition ></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="/Resources/drawable/Star.png"  BackgroundColor="#393939"  ></Image>
+                            <Image Grid.Column="1" Source="/Resources/drawable/Star.png"  BackgroundColor="#393939"  ></Image>
+                            <Image Grid.Column="2" Source="/Resources/drawable/Star.png"  BackgroundColor="#393939"  ></Image>
+                            <Image Grid.Column="3" Source="/Resources/drawable/Star.png"  BackgroundColor="#393939"  ></Image>
+                            <Image Grid.Column="4" Source="/Resources/drawable/Star.png"  BackgroundColor="#393939"  ></Image>
+                            <Image Grid.Column="5" Source="/Resources/drawable/Sta.png"  BackgroundColor="#393939"  ></Image>
+                            <Grid Grid.Column="6">
+
+                            </Grid>
+
+                            <Label Grid.Column="8" Text="500  Р"  FontSize="30" BackgroundColor="#393939" VerticalOptions="Center" HorizontalOptions="End" TextColor="#F16F54" ></Label>
+
+                        </Grid>
+                        <Grid BackgroundColor="#393939" Grid.Row="3">
+                            <Label   Text="«Унесенные ветром» — история о молодой южанке, дочери состоятельного владельца плантаций в Джорджии, чья беззаботная юность прекращается с началом Гражданской войны. В один миг девушке пришлось повзрослеть: мать умерла, отец болен, а родное поместье разграбили янки.
+Эта книга стала самой любимой для нескольких поколений женщин, и ничего равного ей не создано по сей день. Проходят годы и годы, а «Унесенные ветром» не стареют, и теперь уже новым читательницам предстоит смеяться и плакать, любить и страдать, бороться и надеяться вместе с великолепной Скарлетт О'Хара..."  FontSize="26" BackgroundColor="#393939" VerticalOptions="Center" HorizontalOptions="Center" TextColor="#9A9A9A" ></Label>
+
+                        </Grid>
+                        <Grid BackgroundColor="#393939" Grid.Row="4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition ></ColumnDefinition>
+                                <ColumnDefinition ></ColumnDefinition>
+                                <ColumnDefinition ></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0" Margin="10">
+                                <Image  Source="/Resources/drawable/k1.png"  BackgroundColor="#393939"  ></Image>
+
+                            </Grid>
+                            <Grid Grid.Column="1"  Margin="10">
+                                <Image Source="/Resources/drawable/k1.png"  BackgroundColor="#393939"  ></Image>
+
+                            </Grid>
+                            <Grid Grid.Column="2" Margin="10">
+                                <Image  Source="/Resources/drawable/k1.png"  BackgroundColor="#393939"  ></Image>
+
+                            </Grid>
+                        </Grid>
+                        <Grid BackgroundColor="#393939" Grid.Row="5">
+                            <Label  Text="Отзывы"  FontSize="30" BackgroundColor="#393939" VerticalOptions="Center" HorizontalOptions="Start" TextColor="White" ></Label>
+
+                        </Grid>
+                        <Grid BackgroundColor="#393939" Grid.Row="6">
+                            <Grid.RowDefinitions>
+                                <RowDefinition ></RowDefinition>
+                                <RowDefinition ></RowDefinition>
+
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+
+                                <Grid>
+
+                                    <Frame   CornerRadius="20" HeightRequest="110" BackgroundColor="#303030">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition ></ColumnDefinition>
+                                                <ColumnDefinition Width="150"></ColumnDefinition>
+                                                <ColumnDefinition></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition ></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <Image Grid.ColumnSpan="1" Grid.RowSpan="3" Source="/Resources/drawable/d3.png"  HorizontalOptions="Start">
+
+                                            </Image>
+                                            <Label Text="Мария Федоровна"  FontSize="20" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" VerticalOptions="Start" TextColor="White" ></Label>
+                                            <Label Text="Тут отзыв на книгу. Тут отзыв на книгу. Тут отзыв на книгу" Grid.ColumnSpan="2" FontSize="15" Grid.Column="1" Grid.Row="1" VerticalOptions="Start" TextColor="DarkGray"></Label>
+                                            <Label Text="на книгу. Тут отзыв на книгу."  FontSize="15" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" VerticalOptions="Start" TextColor="DarkGray"></Label>
+
+                                           
+                                            <Grid Grid.Row="3" Grid.Column="1">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition ></ColumnDefinition>
+                                                    <ColumnDefinition></ColumnDefinition>
+                                                    <ColumnDefinition></ColumnDefinition>
+                                                    <ColumnDefinition ></ColumnDefinition>
+                                                    <ColumnDefinition></ColumnDefinition>
+                                                    <ColumnDefinition></ColumnDefinition>
+                                                </Grid.ColumnDefinitions>
+                                                <Image Grid.Column="0"   Source="/Resources/drawable/Star.png" ></Image>
+                                                <Image Grid.Column="1" Source="/Resources/drawable/Star.png" ></Image>
+                                                <Image Grid.Column="2"  Source="/Resources/drawable/Star.png" ></Image>
+                                                <Image Grid.Column="3"  Source="/Resources/drawable/Sta.png" ></Image>
+                                            </Grid>
+                                          
+                                          
+                                        </Grid>
+                                    </Frame>
+                                </Grid>
+                
+
+            </Grid>
+                            <Grid Grid.Row="1">
+                                <Grid>
+
+                                    <Frame   CornerRadius="20" HeightRequest="110" BackgroundColor="#303030">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition ></ColumnDefinition>
+                                                <ColumnDefinition Width="150"></ColumnDefinition>
+                                                <ColumnDefinition></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition ></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <Image Grid.ColumnSpan="1" Grid.RowSpan="3" Source="/Resources/drawable/d4.png"  HorizontalOptions="Start">
+
+                                            </Image>
+                                            <Label Text="Мария Федоровна"  FontSize="20" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" VerticalOptions="Start" TextColor="White" ></Label>
+                                            <Label Text="Тут отзыв на книгу. Тут отзыв на книгу. Тут отзыв на книгу" Grid.ColumnSpan="2" FontSize="15" Grid.Column="1" Grid.Row="1" VerticalOptions="Start" TextColor="DarkGray"></Label>
+                                            <Label Text="на книгу. Тут отзыв на книгу."  FontSize="15" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" VerticalOptions="Start" TextColor="DarkGray"></Label>
+
+
+                                            <Grid Grid.Row="3" Grid.Column="1">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition ></ColumnDefinition>
+                                                    <ColumnDefinition></ColumnDefinition>
+                                                    <ColumnDefinition></ColumnDefinition>
+                                                    <ColumnDefinition ></ColumnDefinition>
+                                                    <ColumnDefinition></ColumnDefinition>
+                                                    <ColumnDefinition></ColumnDefinition>
+                                                </Grid.ColumnDefinitions>
+                                                <Image Grid.Column="0"   Source="/Resources/drawable/Star.png" ></Image>
+                                                <Image Grid.Column="1" Source="/Resources/drawable/Star.png" ></Image>
+                                                <Image Grid.Column="2"  Source="/Resources/drawable/Star.png" ></Image>
+                                                <Image Grid.Column="3"  Source="/Resources/drawable/Sta.png" ></Image>
+                                            </Grid>
+                                        </Grid>
+                                    </Frame>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid BackgroundColor="#393939" Grid.Row="7">
+                            <Label  Text="Показать все"  FontSize="20" Margin="30" BackgroundColor="#393939" VerticalOptions="Center" HorizontalOptions="Start" TextColor="#F16F54" ></Label>
+
+                        </Grid>
+                       
+
+                        <Grid Grid.Row="9" BackgroundColor="#393939">
+                            <Grid.RowDefinitions>
+                                    <RowDefinition Height="20"></RowDefinition>
+                                    <RowDefinition Height="20"></RowDefinition>
+
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Row="0" Grid.Column="0">
+                                    <Label Text="3 товаров:" TextColor="#9A9A9A" FontSize="10" HorizontalTextAlignment="Start" ></Label>
+                                </Grid>
+                                <Grid Grid.Row="1" Grid.Column="0">
+                                    <Label Text="1500 Р" TextColor="White" FontSize="20" HorizontalTextAlignment="Start" ></Label>
+                                </Grid>
+                                <Grid Grid.RowSpan="2" Grid.Column="1">
+                                    <Button Text="bay" TextColor="White" Margin="5" FontSize="15" Background="#F16F54" CornerRadius="20" WidthRequest="100" HeightRequest="40" HorizontalOptions="End"></Button>
+                                </Grid>
+                            </Grid>
+
+                        </Grid>
+                    
+
+                </ScrollView>
+            </Grid>
+ 
+            <Grid BackgroundColor="#393939" Grid.Row="2" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" ImageSource="/Resources/drawable/dom.png"  FontFamily="#C5C7FF" BackgroundColor="#393939" ></Button>
+                <Button Grid.Column="1" ImageSource="/Resources/drawable/zal.png" FontFamily="#C5C7FF" BackgroundColor="#393939" Clicked="Button_Clicked_3"></Button>
+                <Button Grid.Column="2" ImageSource="/Resources/drawable/kar.png" FontFamily="#C5C7FF" BackgroundColor="#393939" Clicked="Button_Clicked_4"></Button>
+                <Button Grid.Column="3" ImageSource="/Resources/drawable/cel.png" FontFamily="#C5C7FF" BackgroundColor="#393939" Clicked="Button_Clicked_5"></Button>
+            </Grid>
+        </Grid>
+       
+    </ContentPage.Content>
+</ContentPage>

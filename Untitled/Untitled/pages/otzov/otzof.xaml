@@ -1,35 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Untitled.pages.Glavnoeocno">
-    
-    <ContentPage.Content >
-        <Grid BackgroundColor="Black">
+             x:Class="Untitled.pages.otzov.otzof">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#2A2A2A">
+
             <Grid.RowDefinitions>
-                <RowDefinition Height="70"></RowDefinition>
-                <RowDefinition Height="70"></RowDefinition>
-                <RowDefinition></RowDefinition>
+                <RowDefinition Height="80" ></RowDefinition>
                
+                <RowDefinition></RowDefinition>
                 <RowDefinition Height="50"></RowDefinition>
+
             </Grid.RowDefinitions>
-            
-            <Grid BackgroundColor="Black" Grid.Row="0" >
-                <Label Text="Главная" FontSize="30" TextColor="Yellow" Margin="10"/>
-            </Grid>
-            <Grid BackgroundColor="Black" Grid.Row="1" >
-                
+            <Grid Grid.Row="0" BackgroundColor="#2A2A2A">
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
+
                 </Grid.ColumnDefinitions>
-                
-                <Button Grid.Column="0" Text="Популярное" FontFamily="#C5C7FF" BackgroundColor="Black"></Button>
-                <Button Grid.Column="1" Text="Новинки" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked" ></Button>
-                <Button Grid.Column="2" Text="Скоро в продаже" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked_1"></Button>
+                <Grid Grid.Column="0">
+                    <Button HorizontalOptions="Start"  ImageSource="/Resources/drawable/strelka.png"  FontFamily="#C5C7FF" BackgroundColor="#2A2A2A" ></Button>
+
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Label Text="Все отзывы"  FontSize="20" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start" TextColor="White" ></Label>
+
+
+                </Grid>
             </Grid>
-            <Grid BackgroundColor="Black" Grid.Row="2" >
-                
+            <Grid Grid.Row="1">
                 <ScrollView >
                     <Grid>
 
@@ -46,8 +45,8 @@
                                     <RowDefinition></RowDefinition>
                                 </Grid.RowDefinitions>
                                 <Image Grid.ColumnSpan="1" Grid.RowSpan="3" Source="/Resources/drawable/k1.png"  HorizontalOptions="Start">
-                                
-                            </Image>
+
+                                </Image>
                                 <Label Text="Унесенные ветром"  FontSize="20" Grid.Column="1" Grid.Row="1" VerticalOptions="Start" TextColor="White" ></Label>
                                 <Label Text="Маргарет Митчелл"  FontSize="20" Grid.Column="1" Grid.Row="2" VerticalOptions="Start" TextColor="DarkGray">
                                 </Label>
@@ -66,15 +65,15 @@
                                     <Image Grid.Column="3"  Source="/Resources/drawable/Sta.png" ></Image>
                                 </Grid>
                                 <Grid Grid.Row="0" Grid.Column="2">
-                                    <Button  ImageSource="/Resources/drawable/seroeserd.png"  FontFamily="#C5C7FF"  BackgroundColor="#303030" Clicked="Button_Clicked_5" ></Button>
-                                   
+                                    <Button  ImageSource="/Resources/drawable/seroeserd.png"  FontFamily="#C5C7FF"  BackgroundColor="#303030" Clicked="Button_Clicked" ></Button>
+
                                 </Grid>
                                 <Grid Grid.Row="3" Grid.Column="2">
                                     <Label Text="500 P" TextColor="#949494" FontSize="20"></Label>
                                 </Grid>
                             </Grid>
-                            
-                         
+
+
                         </Frame>
                         <Frame Grid.Row="1" CornerRadius="20" BackgroundColor="#303030
 ">
@@ -406,30 +405,28 @@
                             </Grid>
                         </Frame>
                     </Grid>
-                     
+
                 </ScrollView>
 
-
-              
-                    
-                    
-              
             </Grid>
-            <Grid BackgroundColor="Black" Grid.Row="3" >
 
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition>
-                    </ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" ImageSource="/Resources/drawable/dom.png"  FontFamily="#C5C7FF" BackgroundColor="Black" ></Button>
-                <Button Grid.Column="1" ImageSource="/Resources/drawable/zal.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked_2"></Button>
-                <Button Grid.Column="2" ImageSource="/Resources/drawable/kar.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked_3"></Button>
-                <Button Grid.Column="3" ImageSource="/Resources/drawable/cel.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked_4"></Button>
+            <Grid Grid.Row="2" BackgroundColor="#2A2A2A">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition>
+                        </ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" ImageSource="/Resources/drawable/dom.png"  FontFamily="#C5C7FF" BackgroundColor="#2A2A2A" ></Button>
+                    <Button Grid.Column="1" ImageSource="/Resources/drawable/zal.png" FontFamily="#C5C7FF" BackgroundColor="#2A2A2A" ></Button>
+                    <Button Grid.Column="2" ImageSource="/Resources/drawable/kar.png" FontFamily="#C5C7FF" BackgroundColor="#2A2A2A" ></Button>
+                    <Button Grid.Column="3" ImageSource="/Resources/drawable/cel.png" FontFamily="#C5C7FF" BackgroundColor="#2A2A2A"></Button>
+                </Grid>
             </Grid>
         </Grid>
-        
+
     </ContentPage.Content>
+ 
 </ContentPage>

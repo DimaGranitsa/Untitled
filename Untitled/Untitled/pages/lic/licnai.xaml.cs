@@ -7,44 +7,44 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Untitled.pages
+namespace Untitled.pages.lic
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Glavnoeocno : ContentPage
+    public partial class licnai : ContentPage
     {
-        public Glavnoeocno()
+        public licnai()
         {
             InitializeComponent();
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.novinco.navvinki());
+
         }
 
         private void Button_Clicked_1(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.novinco.skoro_v_prodage());
+
         }
 
         private void Button_Clicked_2(object sender, EventArgs e)
         {
- Navigation.PushModalAsync(new pages.poisk.poisk());
+
         }
 
         private void Button_Clicked_3(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.poisk.karzina());
+           
         }
 
         private void Button_Clicked_4(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.lic.licnai());
+ Navigation.PushModalAsync(new pages.otzov.otzof());
         }
 
         private void Button_Clicked_5(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new pages.rocnig1());
+            Navigation.PushModalAsync(new pages.otzov.otzof());
         }
     }
 }
