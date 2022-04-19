@@ -114,7 +114,7 @@
                         </ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <Button Grid.Column="0" ImageSource="/Resources/drawable/dom.png"  FontFamily="#C5C7FF" BackgroundColor="Black" ></Button>
-                    <Button Grid.Column="1" ImageSource="/Resources/drawable/zal.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked"></Button>
+                    <Button Grid.Column="1" ImageSource="/Resources/drawable/zal.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked "></Button>
                     <Button Grid.Column="2" ImageSource="/Resources/drawable/kar.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked_1"></Button>
                     <Button Grid.Column="3" ImageSource="/Resources/drawable/cel.png" FontFamily="#C5C7FF" BackgroundColor="Black" Clicked="Button_Clicked_2"></Button>
                 </Grid>
